@@ -7,8 +7,15 @@
         {
             "type":"node",
             "request":"launch",
-            "name": "PP",
+            "name": "node debug",
             "program": "${file}"
+        },
+        {
+            "type":"chrome",
+            "request":"launch",
+            "name": "chrome debug",
+            "url": "http://localhost:5500",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
