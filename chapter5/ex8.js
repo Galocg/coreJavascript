@@ -1,4 +1,7 @@
 var fruits = ['apple', 'banana', 'peach'];
+var $ul = document.createElement('ul'); // (공통 코드)
+
+var fruits = ['apple', 'banana', 'peach'];
 var $ul = document.createElement('ul');
 
 var alertFruit = function(fruit) {
