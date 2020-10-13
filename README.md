@@ -1,5 +1,5 @@
 # coreJavascript
-20173298 오창균 종합설계
+종합설계 코어자바스크립트
 
 ## node debug mode
 
